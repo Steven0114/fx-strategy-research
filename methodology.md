@@ -1,5 +1,10 @@
 # 📚 研究方法論與理論基礎
 
+## 論文本文
+
+http://thesis.lib.nccu.edu.tw/cgi-bin/gs32/gsweb.cgi?o=dallcdr&s=id=%22G0111352025%22.&searchmode=basic
+論文有詳盡方法描述
+
 ## 🔬 研究概述
 
 本研究基於經濟基本面指標實施外匯交易策略，探討宏觀經濟變數對匯率報酬的預測能力。研究實施了四種不同的投資組合配置策略：VI（基本面脆弱性指標策略）、RREVI（反向回歸增強投資策略）、CAR（進位交易策略）、REVI（回歸增強投資策略）。
@@ -24,7 +29,7 @@
 ### 4. 基本面分析理論
 - **經濟指標預測**：宏觀經濟變數包含匯率變動的預測信息
 - **綜合評估**：多個指標結合提供更穩健的預測
-- **時間延遲**：經濟基本面對匯率的影響存在時滯
+- **時間延遲**：經濟基本面數據取得存在時滯
 
 ## 🛠️ 研究方法
 
@@ -139,7 +144,7 @@ ExcessReturn[t+h] = α + β₁×CAB[t] + β₂×IR[t] + β₃×NFA[t] + β₄×C
 
 ### 2. 實證貢獻
 - **綜合脆弱性指標**：整合多個宏觀經濟變數
-- **前瞻偏誤利用**：將市場異象轉化為投資機會
+- **均值回歸利用**：將市場異象轉化為投資機會
 - **穩健性驗證**：多時間段和多指標的全面檢驗
 
 ### 3. 實務應用價值
@@ -149,17 +154,37 @@ ExcessReturn[t+h] = α + β₁×CAB[t] + β₂×IR[t] + β₃×NFA[t] + β₄×C
 
 ## 📚 相關文獻
 
-### 理論基礎文獻
-- Fama, E. F. (1984). Forward and spot exchange rates. *Journal of Monetary Economics*
-- Mark, N. C. (1995). Exchange rates and fundamentals: Evidence on long-horizon predictability
-- Engel, C. (1996). The forward discount anomaly and the risk premium
-
-### 實證策略文獻  
-- Burnside, C., Eichenbaum, M., & Rebelo, S. (2007). The returns to currency speculation
-- Lustig, H., Roussanov, N., & Verdelhan, A. (2011). Common risk factors in currency markets
-- Menkhoff, L., Sarno, L., Schmeling, M., & Schrimpf, A. (2012). Carry trades and global foreign exchange volatility
+### 文獻
+- Abhyankar, A., Sarno, L., & Valente, G. (2005). Exchange Rates and Fundamentals:
+Evidence on the Economic Value of Predictability. Journal of International Economics,
+66(2), 325-348.
+- Ahmed, S., Coulibaly, B., & Zlate, A. (2017). International Financial Spillovers to
+1Emerging Market Economies: How Important are Economic Fundamentals? Journal of
+International Money and Finance, 76, 133-152.
+- De Grauwe, P., & Vansteenkiste, I. (2007). Exchange Rates and Fundamentals: A Non-
+Linear Relationship? International Journal of Finance & Economics, 12(1), 37-54.
+- Della Corte, P., Riddiough, S. J., & Sarno, L. (2016). Volatility Risk Premia and Exchange
+Rate Predictability. Journal of Financial Economics, 120(1), 21-40.
+- Ehrmann, M., & Fratzscher, M. (2005). Exchange Rates and Fundamentals: New Evidence
+from Real-Time Data. Journal of International Money and Finance, 24(3), 317-341.
+- Engel, C., & West, K. D. (2005). Exchange Rates and Fundamentals. Journal of Political
+Economy, 113(3), 485-517.
+- Mark, N. C. (1995). Exchange Rates and Fundamentals: Evidence on Long-Horizon
+Predictability. The American Economic Review, 85(1), 201-218.
+- Menkhoff, L., Sarno, L., Schmeling, M., & Schrimpf, A. (2012). Carry Trades and Global
+Foreign Exchange Volatility. The Journal of Finance, 67(2), 681-718.
+- Ricci, L. A., Milesi-Ferretti, G. M., & Lee, J. (2013). Real Exchange Rates and
+Fundamentals: A Cross-Country Perspective. Journal of Money, Credit and Banking,
+45(5), 845-865.
+- Sarno, L., & Valente, G. (2009). Exchange Rates and Fundamentals: Footloose or Evolving
+Relationship? Journal of the European Economic Association, 7(4), 786-830.
+- Sweeney, R. J. (2006). Mean reversion in G-10 nominal exchange rates. Journal of
+Financial and Quantitative Analysis, 41(3), 685-708.
+- Taylor, M. P., Peel, D. A., & Sarno, L. (2001). Nonlinear mean‐reversion in real exchange
+rates: toward a solution to the purchasing power parity puzzles. International economic
+review, 42(4), 1015-1042.
 
 ---
 **文檔版本**：v1.0  
-**最後更新**：2024年12月  
+**最後更新**：2024年7月
 **適用研究**：regression.ipynb v2.0 
