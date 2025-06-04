@@ -1,0 +1,105 @@
+# =============================================================================
+# Git忽略文件 - 外匯策略研究項目 v2.1
+# =============================================================================
+
+# Jupyter Notebook相關
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python相關
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 操作系統文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 歷史版本文件（不上傳）
+forex_trading_strategies_new/
+forex_trading_strategies_new.zip
+forex_trading_strategies.zip
+regression_continue*.ipynb
+regression_2.ipynb
+regression_stepwise.ipynb
+regression_new_2Y.ipynb
+regression_quick.ipynb
+data_process_*.ipynb
+CAR_1M.ipynb
+Economic Data_old/
+
+# 技術報告文件（已簡化，不上傳）
+Boolean索引警告修復報告.md
+變數命名衝突修復成功報告.md
+變數命名衝突解決方案.md
+VI策略簡化整合完成報告.md
+VI策略整合完成報告.md
+notebook重組完成報告.md
+notebook整理建議.md
+項目整理建議.md
+整理完成說明.md
+GitHub上傳指南.md
+
+# 重複或舊版本Excel文件
+VI_total.xlsx
+car_total.xlsx
+RREVI_total.xlsx
+REVI_total.xlsx
+revi_org.xlsx
+car.xlsx
+exchage_rate_E.xlsx
+
+# Word文檔
+*.docx
+
+# 其他目錄
+政府質量變數/
+
+# IDE相關
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 日誌文件
+*.log
+
+# 臨時文件
+*.tmp
+*.temp
+
+# 環境變數文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 備份文件
+*.bak
+*.backup 

@@ -1,0 +1,30 @@
+# 外匯策略實證研究所需Python套件
+# Foreign Exchange Strategy Research - Python Requirements
+
+# 數據處理與分析
+pandas>=1.5.0
+numpy>=1.24.0
+
+# 統計分析
+scipy>=1.10.0
+statsmodels>=0.14.0
+
+# 視覺化
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Excel文件處理
+openpyxl>=3.1.0
+xlrd>=2.0.1
+
+# Jupyter Notebook
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# 其他實用工具
+tqdm>=4.64.0  # 進度條顯示
+xlsxwriter>=3.0.0  # Excel寫入增強
+
+# 可選：金融數據分析增強套件
+# yfinance>=0.2.0  # 如需要即時金融數據
+# quantlib>=1.29   # 高級金融計算（可選） 
