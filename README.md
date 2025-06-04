@@ -263,9 +263,6 @@ Predictability. The American Economic Review, 85(1), 201-218.
 
 ### 方法論與技術文檔
 - [methodology.md](methodology.md) - 詳細研究方法和理論基礎
-- [Boolean索引警告修復報告.md](Boolean索引警告修復報告.md) - 代碼優化技術細節
-- [VI策略簡化整合完成報告.md](VI策略簡化整合完成報告.md) - VI策略優化過程
-- [變數命名衝突修復成功報告.md](變數命名衝突修復成功報告.md) - 變數管理解決方案
 
 ## 📄 許可證
 
